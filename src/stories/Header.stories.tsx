@@ -17,8 +17,11 @@ const Template: ComponentStory<typeof Header> = (args) => <Header {...args} />;
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {
   user: {
-    name: 'Jane Doe',
+    name: 'Erika Perciliano',
   },
+  title: {
+    name: 'Advanced React'
+  }
 };
 
 export const LoggedOut = Template.bind({});
