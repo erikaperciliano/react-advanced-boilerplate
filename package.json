@@ -20,6 +20,7 @@
     ]
   },
   "dependencies": {
+    "@storybook/addon-knobs": "^6.4.0",
     "@types/styled-components": "^5.1.26",
     "babel-plugin-styled-components": "^2.0.7",
     "lint-staged": "^13.0.3",
