@@ -16,4 +16,10 @@ Basic.args = {
   Description: 'Description Overwrite'
 }
 
+export const Secondary: Story = (args) => <Main {...args} />
+Secondary.args = {
+  title: 'Title Secondary',
+  Description: 'Description Secondary'
+}
+
 export const Default: Story = (args) => <Main {...args} />
